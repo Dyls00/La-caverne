@@ -4,7 +4,7 @@ import { footerLinks, socialLinks } from '../constants';
 const Footer = () => {
     return (
         <footer className="bg-dark-purple">
-            <div className="mx-auto w-full max-w-screen-xl">
+            <div className="mx-auto w-full max-w-screen-2xl">
                 <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
                     {footerLinks.map((section) => (
                         <div key={section.title}>
@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 <div className="px-4 py-6 bg-dark-purple md:flex md:items-center md:justify-between">
                     <span className="text-sm text-white sm:text-center">
-                        © 2024 <a href="https://flowbite.com/" className="hover:underline">BDE Estiam Bourges</a>. All Rights Reserved.
+                        © 2024 <a href="https://www.estiam.education/fr/nos-campus/bourges" className="text-white hover:text-orange hover:underline">Estiam Bourges</a>. Tous droits réservés.
                     </span>
                     <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
                         {socialLinks.map((social) => (

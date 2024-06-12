@@ -25,7 +25,7 @@ export const navLinks = [
 
 export const footerLinks = [
     {
-        title: "Page",
+        title: "Pages",
         links: [
             { name: "Accueil", href: "#Home" },
             { name: "Missions du BDE", href: "#Missions" },
@@ -33,14 +33,14 @@ export const footerLinks = [
         ],
     },
     {
-        title: "Page",
+        title: "Pages",
         links: [
-            { name: "Événement du BDE", href: "#Event" },
+            { name: "Événements du BDE", href: "#Event" },
             { name: "Contact", href: "#Contact" },
         ],
     },
     {
-        title: "Legal",
+        title: "Légal",
         links: [
             { name: "Mentions légales", href: "#LegalMentions" },
             { name: "Politique de Confidentialité", href: "#ConfidentialPolitic" },
