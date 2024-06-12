@@ -4,7 +4,7 @@ export const navLinks = [
         title: "Accueil",
     },
     {
-        id: "Mssions",
+        id: "Missions",
         title: "Missions du BDE",
     },
     {
