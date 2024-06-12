@@ -9,12 +9,10 @@ const App = () => {
           <Navbar />  
         </div>
         <Home />
-        <Presentation />
         <Missons />
+        <Presentation />
         <Event />
-        <div className='relative z-0'>
-          <Contact />
-        </div>
+        <Contact />
         <Footer />
       </div>
     </BrowserRouter>
