@@ -3,24 +3,24 @@ const Home = () => {
     <div id="default-carousel" className="relative w-full" data-carousel="slide">
         <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
 
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="..\public\image.jpeg" className="absolute block w-full" alt="..."></img>
+            <div className=" duration-700 ease-in-out" data-carousel-item>
+                <img src="/image.jpeg" className="absolute block w-full" alt="..."></img>
             </div>
 
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-2.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+                <img src="/image2.jpeg" className="absolute block w-full" alt="..."></img>
             </div>
 
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-3.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+                <img src="/image3.jpeg" className="absolute block w-full" alt="..."></img>            
             </div>
 
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-4.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+                <img src="/image4.jpeg" className="absolute block w-full" alt="..."></img>            
             </div>
 
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="/docs/images/carousel/carousel-5.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+                <img src="/image5.jpeg" className="absolute block w-full" alt="..."></img>            
             </div>
         </div>
 
