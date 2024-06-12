@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { Navbar, Home, Presentation, Missons, Event, Contact, Footer } from "./components";
+import { Navbar, Home, Presentation, Missions, Event, Contact, Footer } from "./components";
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
           <Navbar />  
         </div>
         <Home />
-        <Missons />
+        <Missions />
         <Presentation />
         <Event />
         <Contact />
