@@ -53,7 +53,7 @@ const Presentation = () => {
             <div className="grid grid-cols-3 pt-8 md:p-0">
                 {bdeMembers.map((member) => (
                     <a
-                        href='#'
+                        href='javascript:void(0);'
                         className='flex justify-start flex-col m-auto mb-4 cursor-pointer text-primary'
                         key={`${member.firstname}-${member.name}`}
                         onClick={() => handleMember(member)}
