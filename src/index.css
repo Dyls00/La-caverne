@@ -161,10 +161,22 @@ margin: 0 5px;
   background: rgba(0, 0, 0, 0.6);
   color: white;
 }
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .logoB{
+    width: 350px;
+    position: absolute;
+    margin: 15% 15% 15% 35%;
+    z-index: 20;
+  }
+  .carousel-slider {
+    height: 90vh;
+    position: relative;
+  }
+ }
 
 @media screen and (max-width: 800px) {
    .carousel-slider {
-      height: 100vh;
+      height: 40vh;
     }
    .logoB{
       width: 130px;
@@ -173,6 +185,30 @@ margin: 0 5px;
       z-index: 20;
     }
   }
+
+  @media screen and (max-width: 780px) {
+    .carousel-slider {
+       height: 40vh;
+     }
+    .logoB{
+       width: 130px;
+       position: absolute;
+       margin: 15% 15% 15% 40%;
+       z-index: 20;
+     }
+   }
+
+   @media screen and (max-width: 480px) {
+    .carousel-slider {
+       height: 40vh;
+     }
+    .logoB{
+       width: 130px;
+       position: absolute;
+       margin: 15% 15% 15% 35%;
+       z-index: 20;
+     }
+   }
 
 /* scrollbar style */
 
