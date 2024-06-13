@@ -33,8 +33,8 @@ const Presentation = () => {
     }
 
     return (
-        <div id="Presentation" className="container lg:grid grid-cols-2 mx-auto w-full max-w-screen-2xl bg-white py-8 divide-x-4 divide-dark-purple">
-            <div className="p-8 rounded-2xl bg-primary m-auto w-4/5 md:w-3/4 divide-y-2 divide-orange border-2 border-dark-purple">
+        <div id="Presentation" className="container lg:grid grid-cols-2 mx-auto w-full max-w-screen-2xl bg-white py-8 lg:divide-x-2 divide-dark-purple">
+            <div className="p-8 rounded-xl violet-gradient m-auto w-4/5 md:w-3/4 divide-y-2 divide-orange border-2 border-dark-purple shadow-2xl">
                 <h2 className="font-bold text-dark-purple text-center pb-4">{selectedMember.firstname} {selectedMember.name}</h2>
                 <div className="flex py-4">
                     <div className="basis-1/3">
@@ -53,8 +53,7 @@ const Presentation = () => {
             <div className="grid grid-cols-3 pt-8 md:p-0">
                 {bdeMembers.map((member) => (
                     <a
-                        href='javascript:void(0);'
-                        className='flex justify-start flex-col m-auto mb-4 cursor-pointer text-primary'
+                        className='flex justify-start p-4 flex-col m-auto mb-4 cursor-pointer text-primary border-2 rounded-xl border-white hover:border-orange'
                         key={`${member.firstname}-${member.name}`}
                         onClick={() => handleMember(member)}
                     >

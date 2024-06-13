@@ -25,53 +25,53 @@ export const navLinks = [
 
 export const bdeMembers = [
     {
-        'role' : 'Présidente',
-        'avatar' : '/images/members/presidente.png',
-        'name' : 'BLAIZOT',
-        'firstname' : 'Eloïse',
-        'email' : 'eloise.blaizot@estiam.com',
-        'class' : '3° année',
-        'message' : 'Coucou les loulou, c\'est Danielou !'
+        'role': 'Présidente',
+        'avatar': '/images/members/presidente.png',
+        'name': 'BLAIZOT',
+        'firstname': 'Eloïse',
+        'email': 'eloise.blaizot@estiam.com',
+        'class': '3° année',
+        'message': 'Coucou les loulou, c\'est Danielou !'
     },
     {
-        'role' : 'Vice-présidente',
-        'avatar' : '/images/members/vice-presidente.png',
-        'name' : 'GALLAND',
-        'firstname' : 'Jeanne',
-        'email' : 'jeanne.galland@estiam.com',
-        'class' : '5° année'
+        'role': 'Vice-présidente',
+        'avatar': '/images/members/vice-presidente.png',
+        'name': 'GALLAND',
+        'firstname': 'Jeanne',
+        'email': 'jeanne.galland@estiam.com',
+        'class': '5° année'
     },
     {
-        'role' : 'Trésorier',
-        'avatar' : '/images/members/tresorier.jpg',
-        'name' : 'CROCHET',
-        'firstname' : 'Mathias',
-        'email' : 'mathias.crochet@estiam.com',
-        'class' : '4° année'
+        'role': 'Trésorier',
+        'avatar': '/images/members/tresorier.jpg',
+        'name': 'CROCHET',
+        'firstname': 'Mathias',
+        'email': 'mathias.crochet@estiam.com',
+        'class': '4° année'
     },
     {
-        'role' : 'Secrétaire',
-        'avatar' : '/images/members/secretaire.jpg',
-        'name' : 'TELLIEZ',
-        'firstname' : 'Audrey',
-        'email' : 'audrey.telliez@estiam.com',
-        'class' : '1° année'
+        'role': 'Secrétaire',
+        'avatar': '/images/members/secretaire.jpg',
+        'name': 'TELLIEZ',
+        'firstname': 'Audrey',
+        'email': 'audrey.telliez@estiam.com',
+        'class': '1° année'
     },
     {
-        'role' : 'Vice-secrétaire',
-        'avatar' : '/images/members/vice-secretaire.jpg',
-        'name' : 'NSANGOUAKANDA',
-        'firstname' : 'Johane Arlis',
-        'email' : 'johane-arlis.nsangouakanda@estiam.com',
-        'class' : '2° année'
+        'role': 'Vice-secrétaire',
+        'avatar': '/images/members/vice-secretaire.jpg',
+        'name': 'NSANGOUAKANDA',
+        'firstname': 'Johane Arlis',
+        'email': 'johane-arlis.nsangouakanda@estiam.com',
+        'class': '2° année'
     },
     {
-        'role' : 'Membre de droit',
-        'avatar' : '/images/members/membre-droit.jpg',
-        'name' : 'GLAPA',
-        'firstname' : 'Denis',
-        'email' : 'denis.glapa@estiam.com',
-        'class' : 'Formateur'
+        'role': 'Membre de droit',
+        'avatar': '/images/members/membre-droit.jpg',
+        'name': 'GLAPA',
+        'firstname': 'Denis',
+        'email': 'denis.glapa@estiam.com',
+        'class': 'Formateur'
     },
 ]
 
@@ -102,8 +102,6 @@ export const events = [
         btn: "Voir Plus",
     }
 ]
-
-
 
 export const footerLinks = [
     {
@@ -166,12 +164,14 @@ export const socialLinks = [
     },
 ];
 
-export const TitleMissionsBDE = [
-    {
-        title: "Notre BDE, notre mission",
-        text: "Nous donnons notre âme pour ce BDE, alors souscrivez pour le barbuc"
-    }
-]
+export const TitleMissionsBDE = {
+    title: "Notre BDE, notre mission",
+    text: "Nous donnons notre âme pour ce BDE, alors souscrivez pour le barbuc"
+}
+
+export const TitleEvent = {
+    title: "Evénements du BDE",
+}
 
 export const missionData = [
     {
