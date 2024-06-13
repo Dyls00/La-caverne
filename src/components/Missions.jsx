@@ -12,7 +12,7 @@ const Missions = () => {
                 ))}
             </div>
 
-            <div className="grid mb-8 border rounded-lg shadow-sm md:mb-12 md:grid-cols-2 bg-white mx-auto w-full max-w-screen-2xl">
+            <div className="grid mb-8 border rounded-lg shadow-sm md:mb-12 md:grid-cols-2 bg-white lg:mx-auto mx-8 lg:w-full max-w-screen-2xl">
                 {missionData.map((mission, index) => (
                     <figure
                         key={index}
