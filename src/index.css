@@ -131,8 +131,11 @@
 .logoB{
   width: 380px;
   position: absolute;
-  margin: 15% 15% 15% 38%;
-  z-index: 20;
+  top: 25%;
+  right: 15%;
+  bottom: 15%;
+  left : 38%;
+  z-index: 10;
 }
 .carousel-slider {
   height: 90vh;
@@ -161,28 +164,27 @@ margin: 0 5px;
   background: rgba(0, 0, 0, 0.6);
   color: white;
 }
+
+.thumbs-wrapper{
+  display: none;
+}
 @media screen and (min-width: 600px) and (max-width: 1200px) {
   .logoB{
     width: 380px;
-    position: absolute;
-    margin: 15% 15% 15% 33%;
-    z-index: 20;
-  }
-  .carousel-slider {
-    height: 90vh;
-    position: relative;
+    top: 25%;
+    right: 15%;
+    bottom: 15%;
+    left : 33%;
   }
  }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   .logoB{
     width: 350px;
     position: absolute;
-    margin: 15% 15% 15% 35%;
-    z-index: 20;
-  }
-  .carousel-slider {
-    height: 90vh;
-    position: relative;
+    top: 25%;
+    right: 15%;
+    bottom: 15%;
+    left : 35%;
   }
  }
 
@@ -191,34 +193,34 @@ margin: 0 5px;
       height: 40vh;
     }
    .logoB{
-      width: 130px;
+      width: 175px;
       position: absolute;
-      margin: 25% 20% 20% 35%;
-      z-index: 20;
+      top: 25%;
+      right: 20%;
+      bottom: 20%;
+      left : 35%;
     }
   }
 
   @media screen and (max-width: 790px) {
-    .carousel-slider {
-       height: 40vh;
-     }
     .logoB{
-       width: 130px;
+       width: 175px;
        position: absolute;
-       margin: 15% 15% 15% 40%;
-       z-index: 20;
+       top: 15%;
+       right: 15%;
+       bottom: 15%;
+       left : 35%;
      }
    }
 
    @media screen and (max-width: 480px) {
-    .carousel-slider {
-       height: 40vh;
-     }
     .logoB{
        width: 130px;
        position: absolute;
-       margin: 25% 15% 15% 35%;
-       z-index: 20;
+       top: 15%;
+       right: 15%;
+       bottom: 15%;
+       left : 35%;
      }
    }
 
