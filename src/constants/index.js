@@ -164,17 +164,22 @@ export const socialLinks = [
 
 export const TitleMissionsBDE = {
     title: "Notre BDE, notre mission",
-    text: "Nous donnons notre âme pour ce BDE, alors souscrivez pour le barbuc"
+    text: "Nous donnons notre âme pour ce BDE, alors souscrivez pour le barbuc !"
 }
 
 export const TitlePresBDE = {
     title: "Les têtes de notre BDE",
-    text: "Voici le commité de direction de notre BDE, et voici leurs rôles"
+    text: "Voici le commité de direction de notre BDE, et voici leurs rôles !"
 }
 
 export const TitleEvent = {
     title: "Evénements du BDE",
-    text: "Le BDE organise des evénemnts pour créer une cohésion entre les années, fe^ter les diplômes et bien plus !"
+    text: "Le BDE organise des evénemnts pour créer une cohésion entre les années, fêter les diplômes et bien plus !"
+}
+
+export const TitleContact = {
+    title: "Contactez-nous",
+    text: "Si vous avez des questions sur notre BDE ou notre école, n'hésitez pas !"
 }
 
 export const missionData = [
