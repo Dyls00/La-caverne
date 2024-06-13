@@ -3,8 +3,8 @@ const Contact = () => {
         <div id="Presentation" className="container mx-auto w-full max-w-screen-2xl bg-white py-8 rounded-lg mb-20"> 
             
                 <div class="py-8 lg:py-16  mx-auto max-w-screen-md ">
-                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-dark-purple">Contacter Nous</h2>
-                    <p class="mb-8 lg:mb-16 font-light text-center text-dark-purple sm:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique ullamcorper ante et gravida.</p>
+                    <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-dark-purple">Contactez-nous</h2>
+                    <p class="mb-8 lg:mb-16 font-light text-center text-dark-purple sm:text-xl">Si vous avez des questions sur notre BDE ou notre école, n'hésitez pas</p>
                     <form action="#" class="space-y-8">
                         <div>
                             <label for="nomprenom" class="block mb-2 text-sm font-medium text-dark-purple">Votre Nom & Prénom</label>
