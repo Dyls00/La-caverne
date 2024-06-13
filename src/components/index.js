@@ -5,7 +5,6 @@ import Missions from './Missions';
 import Event from './Event';
 import Contact from './Contact';
 import Footer from './Footer';
-import Slider from './Slider';
 
 export {
   Navbar,
@@ -14,6 +13,5 @@ export {
   Missions,
   Event,
   Contact,
-  Slider,
   Footer,
 }

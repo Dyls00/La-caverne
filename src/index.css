@@ -121,45 +121,6 @@
   transform: translateZ(0);
 }
 
-/* Slider*/
-.carousel{
-  height: 90vh;
-  position: relative;
-}
-/*
-.control-arrow{
-  display: none;
-}
-*/
-.carousel .thumb{
-cursor: pointer;
-margin: 0 5px;
-}
-
-.carousel .thumbs{
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-  padding: 10px;
-}
-.carousel .overlay{
-  width: 80%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%);
-  left: 10%;
-  padding: 0.4rem 0.5rem;
-  text-align: left;
-  background: rgba(0, 0, 0, 0.6);
-  color: white;
-}
-
-.carousel .overlay__title{
-  margin: 0.8rem 0 1rem 0;
-}
-
-/*          */
-
 /* scrollbar style */
 
 ::-webkit-scrollbar {
