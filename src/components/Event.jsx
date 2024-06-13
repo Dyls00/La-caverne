@@ -3,7 +3,10 @@ import { events, TitleEvent } from "../constants";
 const Event = () => {
     return (
         <div id="Event" className="h-auto lg:h-screen w-full my-20 violet-gradient">
-            <h2 className="mb-4 text-xl font-extrabold tracking-tight leading-none text-orange md:text-2xl lg:text-4xl py-12 text-center">{TitleEvent.title}</h2>
+            <div id="Missions" className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-16">
+                <h2 className="mb-4 text-xl font-extrabold tracking-tight leading-none text-orange md:text-2xl lg:text-4xl">{TitleEvent.title}</h2>
+                <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 text-white">{TitleEvent.text}</p>
+            </div>
             <div className="flex flex-col content-center justify-center lg:w-full lg:flex-row lg:justify-between">
                 {events.map((event) => (
                     <a key={event.id} href={event.lien} className="w-max m-auto py-4 lg:pt-0">

@@ -75,8 +75,6 @@ export const bdeMembers = [
     },
 ]
 
-
-
 export const events = [
 
     {
@@ -169,8 +167,14 @@ export const TitleMissionsBDE = {
     text: "Nous donnons notre âme pour ce BDE, alors souscrivez pour le barbuc"
 }
 
+export const TitlePresBDE = {
+    title: "Les têtes de notre BDE",
+    text: "Voici le commité de direction de notre BDE, et voici leurs rôles"
+}
+
 export const TitleEvent = {
     title: "Evénements du BDE",
+    text: "Le BDE organise des evénemnts pour créer une cohésion entre les années, fe^ter les diplômes et bien plus !"
 }
 
 export const missionData = [
@@ -190,4 +194,13 @@ export const missionData = [
         title: "Services aux étudiants",
         text: "YLe BDE peut offrir divers services pour améliorer la vie quotidienne des étudiants, tels que la mise en place de partenariats avec des entreprises locales pour offrir des réductions, l'organisation de ventes de matériel scolaire à prix réduits, ou encore la mise en place de plateformes de covoiturage ou de logement."
     }
+];
+
+export const images = [
+    "/images/accueil/image6.jpg",
+    "/images/accueil/image5.jpg",
+    "/images/accueil/image4.jpg",
+    "/images/accueil/image3.jpg",
+    "/images/accueil/image2.jpg",
+    "/images/accueil/image.jpg"
 ];

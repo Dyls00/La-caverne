@@ -1,34 +1,27 @@
-function swipeRight() {
-    document.getElementById('img1').style.display = 'block';
-};
-
-function swipeLeft() {
-    document.getElementById('img').style.display = 'block';
-    document.getElementById('img1').style.display = 'none';
-};
+import React, { useState } from 'react';
+import { images } from '../constants';
 
 const Home = () => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const swipeRight = () => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    };
+
+    const swipeLeft = () => {
+        setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    };
+
     return (
         <div id="Home">
             <div id="controls-carousel" className="relative w-full" data-carousel="static">
-
-                <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-        
-                    <div id ="img" style={{display: "none"}}>
-                        <img src="/imageAccueil/image5.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-                    </div>
-
-                    <div id ="img1" style={{display: "none"}}>
-                        <img src="/imageAccueil/image4.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-                    </div>
-
-                    <div id ="img2" style={{display: "none"}}>
-                        <img src="/imageAccueil/image3.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-                    </div>
-
-                    <div id ="img3" style={{display: "none"}}>
-                        <img src="/imageAccueil/image2.jpg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-                    </div>
+                <div className="relative h-96 overflow-hidden rounded-lg md:h-screen">
+                    {images.map((image, index) => (
+                        <div key={index} style={{ display: currentIndex === index ? 'block' : 'none' }}>
+                            <img src={image} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Image présentation école" />
+                        </div>
+                    ))}
+                    <img src="/logo.png" alt="Logo" className="absolute w-32 h-32 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 z-10" />
                 </div>
 
                 <button type="button" onClick={swipeLeft} className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
@@ -49,7 +42,6 @@ const Home = () => {
                 </button>
             </div>
         </div>
-    
     );
 }
 
