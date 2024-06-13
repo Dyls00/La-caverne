@@ -12,11 +12,11 @@ const Missions = () => {
                 ))}
             </div>
 
-            <div className="grid mb-8 border rounded-lg shadow-sm md:mb-12 md:grid-cols-2 bg-white lg:mx-auto mx-8 lg:w-full max-w-screen-2xl">
+            <div className="grid mb-8 border shadow-sm md:mb-12 md:grid-cols-2 bg-white lg:mx-auto mx-8 lg:w-11/12 max-w-screen-2xl">
                 {missionData.map((mission, index) => (
                     <figure
                         key={index}
-                        className={`flex flex-col items-center justify-center p-8 bg-white text-center ${index % 2 === 0 ? 'md:border-e' : ''} ${index === 0 ? 'rounded-t-lg md:rounded-t-none md:rounded-ss-lg' : ''} ${index === 1 ? 'md:rounded-se-lg' : ''} ${index === 2 ? 'md:rounded-es-lg md:border-b-0' : ''} ${index === 3 ? 'rounded-b-lg md:rounded-se-lg' : ''}`}
+                        className='flex flex-col items-center justify-center p-8 bg-white text-center border-2'
                     >
                         <blockquote className="max-w-2xl mx-auto mb-4 text-dark-purple lg:mb-8">
                             <h3 className="text-lg font-bold text-primary">{mission.title}</h3>
