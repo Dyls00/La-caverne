@@ -84,4 +84,20 @@ export const socialLinks = [
     },
 ];
 
-//...
+export const Sliders = [
+    {
+        id: 1,
+        image: "/imageAccueil/image6.jpg",
+        title: "Titre du slider",
+    },
+    {
+        id: 2,
+        image: "/imageAccueil/image5.jpg",
+        title: "Titre du slider",
+    },
+    {
+        id: 3,
+        image: "/imageAccueil/image3.jpg",
+        title: "Titre du slider",
+    },
+]

@@ -127,15 +127,11 @@
 }
 
 /* Slider*/
-.carousel{
+.carousel-slider {
   height: 90vh;
   position: relative;
 }
-/*
-.control-arrow{
-  display: none;
-}
-*/
+
 .carousel .thumb{
 cursor: pointer;
 margin: 0 5px;
@@ -158,12 +154,6 @@ margin: 0 5px;
   background: rgba(0, 0, 0, 0.6);
   color: white;
 }
-
-.carousel .overlay__title{
-  margin: 0.8rem 0 1rem 0;
-}
-
-/*          */
 
 /* scrollbar style */
 
