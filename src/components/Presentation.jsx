@@ -33,7 +33,7 @@ const Presentation = () => {
     }
 
     return (
-        <div className="container lg:grid grid-cols-2 mx-auto w-full max-w-screen-2xl bg-white py-8 divide-x-4 divide-dark-purple">
+        <div id="Presentation" className="container lg:grid grid-cols-2 mx-auto w-full max-w-screen-2xl bg-white py-8 divide-x-4 divide-dark-purple">
             <div className="p-8 rounded-2xl bg-primary m-auto w-4/5 md:w-3/4 divide-y-2 divide-orange border-2 border-dark-purple">
                 <h2 className="font-bold text-dark-purple text-center pb-4">{selectedMember.firstname} {selectedMember.name}</h2>
                 <div className="flex py-4">

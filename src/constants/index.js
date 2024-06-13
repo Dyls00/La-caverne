@@ -1,4 +1,3 @@
-import { text } from '@fortawesome/fontawesome-svg-core';
 import { faFacebook, faTwitter, faLinkedin, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export const navLinks = [
