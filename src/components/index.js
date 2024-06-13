@@ -13,5 +13,5 @@ export {
   Missions,
   Event,
   Contact,
-  Footer
+  Footer,
 }
