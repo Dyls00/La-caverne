@@ -105,7 +105,7 @@ export const events = [
 
 export const footerLinks = [
     {
-        title: "Pages",
+        title: "/ Pages",
         links: [
             { name: "Accueil", href: "#Home" },
             { name: "Missions du BDE", href: "#Missions" },
@@ -113,21 +113,21 @@ export const footerLinks = [
         ],
     },
     {
-        title: "Pages",
+        title: "/ Pages",
         links: [
             { name: "Evénements du BDE", href: "#Event" },
             { name: "Contact", href: "#Contact" },
         ],
     },
     {
-        title: "Légal",
+        title: "/ Légal",
         links: [
             { name: "Mentions légales", href: "#LegalMentions" },
             { name: "Politique de Confidentialité", href: "#ConfidentialPolitic" },
         ],
     },
     {
-        title: "Informations de l'école",
+        title: "/ Informations de l'école",
         links: [
             { name: "2 Rue Michel Marest, Bourges", href: "#" },
             { name: "bourges@estiam.com", href: "mailto:bourges@estiam.com" },
