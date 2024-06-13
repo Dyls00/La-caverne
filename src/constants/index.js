@@ -30,16 +30,16 @@ export const events = [
     {
         col: "col-start-1",
         lien: "https://www.estiam.education/",
-        img: "https://www.cityguide-dubai.com/fileadmin/_processed_/3/3/csm_img-worlds-of-adventures-teaser_40e4184da1.jpg",
-        title: "Evenement 1",
+        img: '/images/events/karting.jpg',
+        title: "Soirée Karting",
         des: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
         btn: "Voir Plus",
     },
     {
         col: "col-start-2",
         lien: "https://www.estiam.education/",
-        img: "https://www.cityguide-dubai.com/fileadmin/_processed_/3/3/csm_img-worlds-of-adventures-teaser_40e4184da1.jpg",
-        title: "Evenement 2",
+        img: "/images/events/lasergame.png",
+        title: "Après-Midi Laser-Game",
         des: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
         btn: "Voir Plus",
     },
@@ -47,8 +47,8 @@ export const events = [
     {
         col: "col-start-3",
         lien: "https://www.estiam.education/",
-        img: "https://www.cityguide-dubai.com/fileadmin/_processed_/3/3/csm_img-worlds-of-adventures-teaser_40e4184da1.jpg",
-        title: "Evenement 3",
+        img: "/images/events/bowling.png",
+        title: "Soirée Bowling",
         des: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
         btn: "Voir Plus",
     }
