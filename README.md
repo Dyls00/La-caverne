@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -68,3 +70,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Documentation technique du site :
+
+<h2>Le site est créé en utilisant React et Tailwind</h2>
+
+Les fonctionnalités sont :
+
+- pages Accueil, Missions, Présentations, Eve=énements et Contact
+
+- EmailJS pour les mails du contact
