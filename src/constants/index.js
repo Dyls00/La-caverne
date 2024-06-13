@@ -28,7 +28,6 @@ export const navLinks = [
 export const events = [
 
     {
-        col: "col-start-1",
         lien: "https://www.estiam.education/",
         img: '/images/events/karting.jpg',
         title: "Soirée Karting",
@@ -36,7 +35,6 @@ export const events = [
         btn: "Voir Plus",
     },
     {
-        col: "col-start-2",
         lien: "https://www.estiam.education/",
         img: "/images/events/lasergame.png",
         title: "Après-Midi Laser-Game",
@@ -45,7 +43,6 @@ export const events = [
     },
 
     {
-        col: "col-start-3",
         lien: "https://www.estiam.education/",
         img: "/images/events/bowling.png",
         title: "Soirée Bowling",
