@@ -15,7 +15,7 @@ export const navLinks = [
     },
     {
         id: "Event",
-        title: "Evénements du BDE",
+        title: "Événements du BDE",
     },
     {
         id: "Contact",
@@ -68,7 +68,7 @@ export const footerLinks = [
     {
         title: "Pages",
         links: [
-            { name: "Evénements du BDE", href: "#Event" },
+            { name: "Événements du BDE", href: "#Event" },
             { name: "Contact", href: "#Contact" },
         ],
     },
