@@ -59,7 +59,7 @@ export const bdeMembers = [
     },
     {
         'role' : 'Vice-secrétaire',
-        'avatar' : '/images/members/vice-secretaire.png',
+        'avatar' : '/images/members/vice-secretaire.jpg',
         'name' : 'NSANGOUAKANDA',
         'firstname' : 'Johane Arlis',
         'email' : 'johane-arlis.nsangouakanda@estiam.com',
