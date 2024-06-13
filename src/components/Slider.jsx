@@ -6,19 +6,22 @@ import { Sliders } from '../constants';
 const Slider = () => {
 
     return (
-        <Carousel 
-            autoPlay 
-            infiniteLoop 
-            thumbWidth={120} 
-            showIndicators = {false}
-            showStatus = {false}
-        >
-            {Sliders.map((slide) => (
-                <div key={slide.id}>
-                    <img alt={slide.Title} src={slide.image} />
-                </div>
-            ))}
-        </Carousel>
+        <>
+            <img alt='test' className='logoB' src='/logo.png' />
+            <Carousel
+                autoPlay
+                infiniteLoop
+                thumbWidth={120}
+                showIndicators={false}
+                showStatus={false}
+            >
+                {Sliders.map((slide) => (
+                    <div key={slide.id}>
+                        <img alt={slide.Title} src={slide.image} />
+                    </div>
+                ))}
+            </Carousel>
+        </>
     );
 
 }

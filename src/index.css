@@ -127,6 +127,13 @@
 }
 
 /* Slider*/
+
+.logoB{
+  width: 380px;
+  position: absolute;
+  margin: 15rem 15rem 15rem 36rem;
+  z-index: 20;
+}
 .carousel-slider {
   height: 90vh;
   position: relative;
