@@ -76,6 +76,36 @@ export const bdeMembers = [
     },
 ]
 
+
+
+export const events = [
+
+    {
+        lien: "https://www.estiam.education/",
+        img: '/images/events/karting.jpg',
+        title: "Soirée Karting",
+        des: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        btn: "Voir Plus",
+    },
+    {
+        lien: "https://www.estiam.education/",
+        img: "/images/events/lasergame.png",
+        title: "Après-Midi Laser-Game",
+        des: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        btn: "Voir Plus",
+    },
+
+    {
+        lien: "https://www.estiam.education/",
+        img: "/images/events/bowling.png",
+        title: "Soirée Bowling",
+        des: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        btn: "Voir Plus",
+    }
+]
+
+
+
 export const footerLinks = [
     {
         title: "Pages",
