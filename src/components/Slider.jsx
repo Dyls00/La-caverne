@@ -7,7 +7,6 @@ const Slider = () => {
 
     return (
         <>
-            <img alt='test' className='logoB' src='/logo.png' />
             <Carousel
                 autoPlay
                 infiniteLoop
