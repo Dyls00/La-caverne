@@ -1,59 +1,82 @@
-# Bien démarrer avec Create React App
+# Getting Started with Create React App
 
-Ce projet a été initialisé avec [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Scripts disponibles
+## Available Scripts
 
-Dans le répertoire du projet, vous pouvez exécuter :
+In the project directory, you can run:
 
 ### `npm install`
 
-Installe toutes les dépendances nécessaires pour le projet.
+### `npm start`
 
-### `npm run start`
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Lance l'application en mode développement.\
-Ouvrir [http://localhost:3000](http://localhost:3000) pour voir l'application dans votre navigateur.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-La page se rechargera automatiquement si vous apportez des modifications au code.\
-Vous pouvez également voir les erreurs de linting dans la console.
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Construit l'application pour la production dans le dossier build.\
-Il regroupe correctement React en mode production et optimise la construction pour de meilleures performances.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-La construction est minifiée et les noms de fichiers incluent les hachages.\
-Votre application est prête à être déployée !
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Consultez la section sur [deployment](https://facebook.github.io/create-react-app/docs/deployment) pour plus d'informations.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
-**Note : il s'agit d'une opération à sens unique. Une fois que vous avez "eject", vous ne pouvez plus revenir en arrière !**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Si vous n'êtes pas satisfait des outils de construction et des choix de configuration, vous pouvez "eject" à tout moment. Cette commande supprimera la dépendance unique de votre projet.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Au lieu de cela, elle copiera tous les fichiers de configuration et les dépendances transitives (webpack, Babel, ESLint, etc.) directement dans votre projet afin que vous ayez un contrôle total sur ceux-ci. Toutes les commandes sauf eject fonctionneront toujours, mais elles pointeront vers les scripts copiés afin que vous puissiez les modifier. À ce stade, vous êtes seul.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Vous n'avez jamais besoin d'utiliser eject. Le jeu de fonctionnalités géré est adapté aux petits et moyens déploiements, et vous ne devriez pas vous sentir obligé d'utiliser cette fonctionnalité. Cependant, nous comprenons que cet outil ne serait pas utile si vous ne pouviez pas le personnaliser lorsque vous êtes prêt.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## En savoir plus
+## Learn More
 
-Vous pouvez en savoir plus dans la [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Pour apprendre React, consultez la [React documentation](https://reactjs.org/).
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## Documentation technique du site :
 
-### Le site est créé en utilisant React et Tailwind :
+<h2>Le site est créé en utilisant React et Tailwind</h2>
 
-Les fonctionnalités du site web du BDE Estiam Bourges sont :
+Les fonctionnalités sont :
 
-- Pages Accueil, Missions du BDE, Evénements, Présentation et Contact
+- pages Accueil, Missions, Présentations, Eve=énements et Contact
 
-- EmailJS a été ajouté pour les envoient de mails du contact
-
-- Les modifications de textes se font en grande majorité dans un seul fichier : `/constants/index.js` :
-
-    - Ce fichier est appelé dans les différent composant qui map les informations des constantes.
+- EmailJS pour les mails du contact
