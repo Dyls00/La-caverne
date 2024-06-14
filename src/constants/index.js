@@ -93,7 +93,7 @@ export const events = [
         lien: "https://www.estiam.education/",
         img: "/images/events/Barbecue.jpg",
         title: "Soirée Barbecue",
-        des: "Convivialité, bonne humeur et délicieux repas ont rendu cette soirée inoubliable.",
+        des: "La convivialité, la bonne humeur et le délicieux repas ont transformé cette soirée en un moment marquant.",
         btn: "Voir Plus",
     },
 
