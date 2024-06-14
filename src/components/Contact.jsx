@@ -129,7 +129,7 @@ const Contact = () => {
             </div>
             <button
                 type="submit"
-                className="py-3 px-5 text-sm text-center text-white rounded-lg bg-orange sm:w-fit hover:bg-dark-purple focus:ring-4 focus:ring-dark-purple"
+                className="py-3 px-5 text-sm text-center text-white rounded-lg orange-gradient sm:w-fit"
             >
                 {loading ? 'Envoi en cours' : 'Envoyer'}
             </button>

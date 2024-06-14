@@ -5,6 +5,7 @@ import Missions from './Missions';
 import Event from './Event';
 import Contact from './Contact';
 import Footer from './Footer';
+import MentionsLegales from './MentionsLegales'
 
 export {
   Navbar,
@@ -14,4 +15,5 @@ export {
   Event,
   Contact,
   Footer,
+  MentionsLegales,
 }

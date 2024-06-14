@@ -31,7 +31,7 @@ export const bdeMembers = [
         'firstname': 'Eloïse',
         'email': 'eloise.blaizot@estiam.com',
         'class': '3° année',
-        'message': ""
+        'message': "You know the rules, and so do I"
     },
     {
         'role': 'Vice-présidente',
@@ -49,7 +49,7 @@ export const bdeMembers = [
         'firstname': 'Mathias',
         'email': 'mathias.crochet@estiam.com',
         'class': '4° année',
-        'message' : ""
+        'message' : "Un grand pouvoir implique de grandes responsabilités"
     },
     {
         'role': 'Secrétaire',
@@ -58,7 +58,7 @@ export const bdeMembers = [
         'firstname': 'Audrey',
         'email': 'audrey.telliez@estiam.com',
         'class': '1° année',
-        'message' : ""
+        'message' : "Wingardium LeviOsa, et pas leviosA !"
     },
     {
         'role': 'Vice-secrétaire',
@@ -67,7 +67,7 @@ export const bdeMembers = [
         'firstname': 'Johane Arlis',
         'email': 'johane-arlis.nsangouakanda@estiam.com',
         'class': '2° année',
-        'message' : ""
+        'message' : "Carpe diem"
     },
     {
         'role': 'Membre de droit',
@@ -76,7 +76,7 @@ export const bdeMembers = [
         'firstname': 'Denis',
         'email': 'denis.glapa@estiam.com',
         'class': 'Formateur',
-        'message' : ""
+        'message' : "Never too much"
     },
 ]
 
@@ -110,23 +110,22 @@ export const footerLinks = [
     {
         title: "/ Pages",
         links: [
-            { name: "Accueil", href: "#Home" },
-            { name: "Missions du BDE", href: "#Missions" },
-            { name: "Événements du BDE", href: "#Event" },
+            { name: "Accueil", href: "/#Home" },
+            { name: "Missions du BDE", href: "/#Missions" },
+            { name: "Événements du BDE", href: "/#Event" },
         ],
     },
     {
         title: "/ Pages",
         links: [
-            { name: "Membres du BDE", href: "#Presentation" },
-            { name: "Contact", href: "#Contact" },
+            { name: "Membres du BDE", href: "/#Presentation" },
+            { name: "Contact", href: "/#Contact" },
         ],
     },
     {
         title: "/ Légal",
         links: [
-            { name: "Mentions légales", href: "#LegalMentions" },
-            { name: "Politique de Confidentialité", href: "#ConfidentialPolitic" },
+            { name: "Mentions légales", href: "/mentions-legales" },
         ],
     },
     {
@@ -185,6 +184,11 @@ export const TitleEvent = {
 export const TitleContact = {
     title: "Contactez-nous",
     text: "Si vous avez des questions sur notre BDE ou notre école, n'hésitez pas !"
+}
+
+export const TitleMentionsLegales = {
+    title: "Mentions Légales",
+    text: "Voici les mentions légales de notre site"
 }
 
 export const missionData = [
