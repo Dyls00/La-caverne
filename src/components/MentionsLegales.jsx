@@ -11,7 +11,7 @@ const MentionsLegales = () => {
       <div className='text-dark-purple px-4'>
         <h3 className="text-2xl font-bold mb-4">Informations Générales</h3>
         <p>ESTIAM</p>
-        <p>Raison sociale : OGEC LTP Saint Jean Baptiste de la Salle</p>
+        <p>Raison sociale : LA CAVERNE - BDE ESTIAM CAMPUS BOURGES</p>
         <p>Type : Association loi 1901</p>
         <p>SIRET : 775 020 175 00011</p>
         <p>Siège social : 52 Avenue de la Libération, 18000 Bourges</p>
