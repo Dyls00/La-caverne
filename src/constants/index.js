@@ -107,13 +107,13 @@ export const footerLinks = [
         links: [
             { name: "Accueil", href: "#Home" },
             { name: "Missions du BDE", href: "#Missions" },
-            { name: "Présentation du BDE", href: "#Pres" },
+            { name: "Evénements du BDE", href: "#Event" },
         ],
     },
     {
         title: "/ Pages",
         links: [
-            { name: "Evénements du BDE", href: "#Event" },
+            { name: "Présentation du BDE", href: "#Presentation" },
             { name: "Contact", href: "#Contact" },
         ],
     },
@@ -127,9 +127,9 @@ export const footerLinks = [
     {
         title: "/ Informations de l'école",
         links: [
-            { name: "2 Rue Michel Marest, Bourges", href: "#" },
+            { name: "Campus Lahitolle, Salle d'Armes, 7 Rue Michel Marest, 18000 Bourges", href: "https://www.google.com/maps/search/?api=1&query=Campus+Lahitolle,+Salle+d'Armes,+7+Rue+Michel+Marest,+18000+Bourges" },
             { name: "bourges@estiam.com", href: "mailto:bourges@estiam.com" },
-            { name: "+33 1 82 83 75 00", href: "#" },
+            { name: "+33 2 48 27 15 15", href: "tel:+33248271515" },
         ],
     },
 ];
@@ -156,7 +156,7 @@ export const socialLinks = [
         label: "YouTube channel",
     },
     {
-        href: "#",
+        href: "https://www.instagram.com/estiamofficiel/",
         icon: faInstagram,
         label: "Instagram page",
     },

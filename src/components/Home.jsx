@@ -21,7 +21,7 @@ const Home = () => {
                             <img src={image} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Image présentation école" />
                         </div>
                     ))}
-                    <img src="/logo.png" alt="Logo" className="absolute w-48 h-48 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 z-10" />
+                    <img src="/logo.png" alt="Logo" className="absolute w-56 h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 z-10" />
                 </div>
 
                 <button type="button" onClick={swipeLeft} className="absolute top-0 start-0 z-10 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
