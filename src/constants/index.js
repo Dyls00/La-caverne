@@ -31,7 +31,7 @@ export const bdeMembers = [
         'firstname': 'Eloïse',
         'email': 'eloise.blaizot@estiam.com',
         'class': '3° année',
-        'message': 'Coucou les loulou, c\'est Danielou !'
+        'message': ""
     },
     {
         'role': 'Vice-présidente',
@@ -93,7 +93,7 @@ export const events = [
         lien: "https://www.estiam.education/",
         img: "/images/events/Barbecue.jpg",
         title: "Soirée Barbecue",
-        des: "La convivialité, la bonne humeur et le délicieux repas ont transformé cette soirée en un moment marquant.",
+        des: "La convivialité, la bonne humeur et les délicieux repas ont transformé cette soirée en un moment marquant.",
         btn: "Voir Plus",
     },
 
