@@ -202,10 +202,12 @@ export const missionData = [
 ];
 
 export const images = [
-    "/images/accueil/image6.jpg",
-    "/images/accueil/image5.jpg",
-    "/images/accueil/image4.jpg",
-    "/images/accueil/image3.jpg",
-    "/images/accueil/image2.jpg",
-    "/images/accueil/image.jpg"
+    "/images/accueil/Estiam_CD18_02.jpg",
+    "/images/accueil/Estiam_CD18_03.jpg",
+    "/images/accueil/Estiam_CD18_05.jpg",
+    "/images/accueil/Estiam_CD18_10.jpg",
+    "/images/accueil/Estiam_CD18_12.jpg",
+    "/images/accueil/Estiam_CD18_15.jpg",
+    "/images/accueil/Estiam_CD18_17.jpg",
+    "/images/accueil/Estiam_CD18_20.jpg"
 ];
