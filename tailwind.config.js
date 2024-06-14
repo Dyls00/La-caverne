@@ -8,7 +8,6 @@ module.exports = {
     extend: {
       colors: {
         primary: "#6633CC",
-        'gradiant-primary': "",
         "dark-purple": "#000033",
         "orange" : "#FF5500",
         "red" : "#FF0033",
