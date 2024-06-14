@@ -131,7 +131,7 @@ const Contact = () => {
                 type="submit"
                 className="py-3 px-5 text-sm text-center text-white rounded-lg bg-orange sm:w-fit hover:bg-dark-purple focus:ring-4 focus:ring-dark-purple"
             >
-                {loading ? 'Sending...' : 'Envoyer'}
+                {loading ? 'Envoi en cours' : 'Envoyer'}
             </button>
             </form>
         </div>

@@ -11,11 +11,11 @@ export const navLinks = [
     },
     {
         id: "Event",
-        title: "Evénements du BDE",
+        title: "Événements du BDE",
     },
     {
         id: "Presentation",
-        title: "Présentation du BDE",
+        title: "Membres du BDE",
     },
     {
         id: "Contact",
@@ -39,7 +39,8 @@ export const bdeMembers = [
         'name': 'GALLAND',
         'firstname': 'Jeanne',
         'email': 'jeanne.galland@estiam.com',
-        'class': '5° année'
+        'class': '5° année',
+        'message' : ""
     },
     {
         'role': 'Trésorier',
@@ -47,7 +48,8 @@ export const bdeMembers = [
         'name': 'CROCHET',
         'firstname': 'Mathias',
         'email': 'mathias.crochet@estiam.com',
-        'class': '4° année'
+        'class': '4° année',
+        'message' : ""
     },
     {
         'role': 'Secrétaire',
@@ -55,7 +57,8 @@ export const bdeMembers = [
         'name': 'TELLIEZ',
         'firstname': 'Audrey',
         'email': 'audrey.telliez@estiam.com',
-        'class': '1° année'
+        'class': '1° année',
+        'message' : ""
     },
     {
         'role': 'Vice-secrétaire',
@@ -63,7 +66,8 @@ export const bdeMembers = [
         'name': 'NSANGOUAKANDA',
         'firstname': 'Johane Arlis',
         'email': 'johane-arlis.nsangouakanda@estiam.com',
-        'class': '2° année'
+        'class': '2° année',
+        'message' : ""
     },
     {
         'role': 'Membre de droit',
@@ -71,7 +75,8 @@ export const bdeMembers = [
         'name': 'GLAPA',
         'firstname': 'Denis',
         'email': 'denis.glapa@estiam.com',
-        'class': 'Formateur'
+        'class': 'Formateur',
+        'message' : ""
     },
 ]
 
@@ -80,23 +85,23 @@ export const events = [
     {
         lien: "https://www.estiam.education/",
         img: '/images/events/karting.jpg',
-        title: "Soirée Karting",
-        des: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        title: "Remise de Diplôme: Karting",
+        des: "Entre sensations fortes, rires partagés et compétition amicale, les participants ont vécu une expérience inoubliable.",
         btn: "Voir Plus",
     },
     {
         lien: "https://www.estiam.education/",
-        img: "/images/events/lasergame.png",
-        title: "Après-Midi Laser-Game",
-        des: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        img: "/images/events/Barbecue.jpg",
+        title: "Soirée Barbecue",
+        des: "Convivialité, bonne humeur et délicieux repas ont rendu cette soirée inoubliable.",
         btn: "Voir Plus",
     },
 
     {
         lien: "https://www.estiam.education/",
-        img: "/images/events/bowling.png",
-        title: "Soirée Bowling",
-        des: "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
+        img: "/images/events/jeuxsociete.jpg",
+        title: "Journée Intégration: Jeux",
+        des: "Camaraderie, stratégie et rires ont créé une ambiance chaleureuse et enrichissante lors de cette journée mémorable.",
         btn: "Voir Plus",
     }
 ]
@@ -107,13 +112,13 @@ export const footerLinks = [
         links: [
             { name: "Accueil", href: "#Home" },
             { name: "Missions du BDE", href: "#Missions" },
-            { name: "Evénements du BDE", href: "#Event" },
+            { name: "Événements du BDE", href: "#Event" },
         ],
     },
     {
         title: "/ Pages",
         links: [
-            { name: "Présentation du BDE", href: "#Presentation" },
+            { name: "Membres du BDE", href: "#Presentation" },
             { name: "Contact", href: "#Contact" },
         ],
     },
@@ -164,17 +169,17 @@ export const socialLinks = [
 
 export const TitleMissionsBDE = {
     title: "Notre BDE, notre mission",
-    text: "Nous donnons notre âme pour ce BDE, alors souscrivez pour le barbuc !"
+    text: "Nous donnons notre âme pour ce BDE, alors rejoignez-nous !"
 }
 
 export const TitlePresBDE = {
-    title: "Les têtes de notre BDE",
-    text: "Voici le commité de direction de notre BDE, et voici leurs rôles !"
+    title: "Membres du BDE",
+    text: "Voici le comité de direction de notre BDE, et voici leurs rôles !"
 }
 
 export const TitleEvent = {
-    title: "Evénements du BDE",
-    text: "Le BDE organise des evénemnts pour créer une cohésion entre les années, fêter les diplômes et bien plus !"
+    title: "Événements du BDE",
+    text: "Le BDE organise des événements pour créer une cohésion entre les années, fêter les diplômes et bien plus !"
 }
 
 export const TitleContact = {
@@ -197,7 +202,7 @@ export const missionData = [
     },
     {
         title: "Services aux étudiants",
-        text: "YLe BDE peut offrir divers services pour améliorer la vie quotidienne des étudiants, tels que la mise en place de partenariats avec des entreprises locales pour offrir des réductions, l'organisation de ventes de matériel scolaire à prix réduits, ou encore la mise en place de plateformes de covoiturage ou de logement."
+        text: "Le BDE peut offrir divers services pour améliorer la vie quotidienne des étudiants, tels que la mise en place de partenariats avec des entreprises locales pour offrir des réductions, l'organisation de ventes de matériel scolaire à prix réduits, ou encore la mise en place de plateformes de covoiturage ou de logement."
     }
 ];
 
