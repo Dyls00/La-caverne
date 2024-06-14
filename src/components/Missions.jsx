@@ -2,8 +2,8 @@ import { missionData, TitleMissionsBDE } from '../constants';
 
 const Missions = () => {
     return (
-        <div className="h-auto lg:h-screen">
-            <div id="Missions" className="pt-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-16">
+        <section id="Missions" className="h-auto lg:h-screen">
+            <div className="pt-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-16">
                 <h2 className="mb-4 text-xl font-extrabold tracking-tight leading-none text-orange md:text-2xl lg:text-4xl">{TitleMissionsBDE.title}</h2>
                 <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 text-dark-purple">{TitleMissionsBDE.text}</p>
             </div>
@@ -21,7 +21,7 @@ const Missions = () => {
                     </figure>
                 ))}
             </div>
-        </div>
+        </section>
     );
 }
 

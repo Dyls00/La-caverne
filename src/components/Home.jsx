@@ -13,7 +13,7 @@ const Home = () => {
     };
 
     return (
-        <div id="Home">
+        <section id="Home">
             <div id="controls-carousel" className="relative w-full" data-carousel="static">
                 <div className="relative h-96 overflow-hidden rounded-lg md:h-screen">
                     {images.map((image, index) => (
@@ -41,7 +41,7 @@ const Home = () => {
                     </span>
                 </button>
             </div>
-        </div>
+        </section>
     );
 }
 

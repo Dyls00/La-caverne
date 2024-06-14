@@ -10,12 +10,12 @@ export const navLinks = [
         title: "Missions du BDE",
     },
     {
-        id: "Presentation",
-        title: "Présentation du BDE",
-    },
-    {
         id: "Event",
         title: "Evénements du BDE",
+    },
+    {
+        id: "Presentation",
+        title: "Présentation du BDE",
     },
     {
         id: "Contact",
