@@ -70,7 +70,7 @@ const Contact = () => {
     <section id="Contact" className="container mx-auto w-full max-w-screen-2xl bg-white py-8 rounded-lg h-auto lg:min-h-screen">
         <div className="py-8 lg:px-0 px-8 mx-auto max-w-screen-md">
             <div id="Missions" className="pt-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-16">
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-dark-purple">{TitleContact.title}</h2>
+                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-primary"><span className='text-orange'>/ </span>{TitleContact.title}</h2>
                 <p className="mb-8 lg:mb-16 font-light text-center text-dark-purple sm:text-xl">{TitleContact.text}</p>
             </div>
 

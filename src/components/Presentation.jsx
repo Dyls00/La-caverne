@@ -33,13 +33,13 @@ const Presentation = () => {
     }
 
     return (
-        <section id="Missions" className="h-auto lg:min-h-screen">
-            <div className="pt-8 px-4 mx-auto max-w-screen-xl text-center lg:pt-16">
-                <h2 className="mb-4 text-xl font-extrabold tracking-tight leading-none text-orange md:text-2xl lg:text-4xl">{TitlePresBDE.title}</h2>
+        <section id="Presentation"className="pt-16 h-auto lg:min-h-screen">
+            <div className="px-4 mx-auto max-w-screen-xl text-center lg:pt-16">
+                <h2 className="mb-4 text-xl font-extrabold tracking-tight leading-none text-primary md:text-2xl lg:text-4xl"><span className='text-orange'>/ </span>{TitlePresBDE.title}</h2>
                 <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 text-dark-purple">{TitlePresBDE.text}</p>
             </div>
 
-            <div id="Presentation" className="container lg:grid grid-cols-2 mx-auto w-full max-w-screen-2xl bg-white py-8 lg:divide-x-2 divide-dark-purple">
+            <div className="container lg:grid grid-cols-2 mx-auto w-full max-w-screen-2xl bg-white py-8 lg:divide-x-2 divide-dark-purple">
                 <div className="p-8 rounded-xl violet-gradient m-auto w-4/5 md:w-3/4 divide-y-2 divide-orange border-2 border-dark-purple shadow-2xl">
                     <h2 className="font-bold text-center pb-4">{selectedMember.firstname} {selectedMember.name}</h2>
                     <div className="flex flex-col md:flex-row py-4">
@@ -58,7 +58,7 @@ const Presentation = () => {
                 </div>
                 <div className="grid grid-cols-2 lg:grid-cols-3 pt-8 md:p-0">
                     {bdeMembers.map((member) => (
-                        <a
+                        <button 
                             className='flex justify-start p-4 flex-col m-auto mb-4 cursor-pointer text-primary border-2 rounded-xl border-white hover:border-orange'
                             key={`${member.firstname}-${member.name}`}
                             onClick={() => handleMember(member)}
@@ -67,7 +67,7 @@ const Presentation = () => {
                             <p className='m-auto font-bold'>{member.firstname}</p>
                             <p className='m-auto font-bold'>{member.name}</p>
                             <p className='m-auto'>{member.role}</p>
-                        </a>
+                        </button>
                     ))}
                 </div>
             </div>

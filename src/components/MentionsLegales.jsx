@@ -5,7 +5,7 @@ const MentionsLegales = () => {
   return (
     <section id="MentionsLegales" className="container mx-auto w-full max-w-screen-2xl bg-white py-8 rounded-lg h-auto lg:min-h-screen">
       <div id="Missions" className="py-16 px-4 mx-auto max-w-screen-xl text-center lg:pt-16">
-        <h2 className="mb-4 text-xl font-extrabold tracking-tight leading-none text-orange md:text-2xl lg:text-4xl">{TitleMentionsLegales.title}</h2>
+        <h2 className="mb-4 text-xl font-extrabold tracking-tight leading-none text-primary md:text-2xl lg:text-4xl"><span className='text-orange'>/ </span>{TitleMentionsLegales.title}</h2>
         <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 text-dark-purple">{TitleMentionsLegales.text}</p>
       </div>
       <div className='text-dark-purple px-4'>
@@ -32,7 +32,7 @@ const MentionsLegales = () => {
         <p>Le présent site est hébergé par : PLANETHOSTER inc.</p>
         <p>Adresse : 4416 Louis B. Mayer, Laval (Québec), H7P 0G1, Canada</p>
         <p>Numéro de téléphone : 0 805 080 426 (Numéro Vert FR)</p>
-        <p>Site web : <a href="https://www.planethoster.com" className="text-blue-600 hover:underline">www.planethoster.com</a></p>
+        <p>Site web : <a href="https://www.planethoster.com" target='_blank' className="text-blue-600 hover:underline">www.planethoster.com</a></p>
 
         <h3 className="text-2xl font-bold mt-8 mb-4">Propriété Intellectuelle</h3>
         <p>Tous les éléments du présent site, notamment les textes, images, sons, vidéos, etc. sont la propriété de l'Association Nom de l'Association.</p>
