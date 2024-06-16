@@ -59,7 +59,7 @@ const Presentation = () => {
                 <div className="grid grid-cols-2 lg:grid-cols-3 pt-8 md:p-0">
                     {bdeMembers.map((member) => (
                         <button 
-                            className='flex justify-start p-4 flex-col m-auto mb-4 cursor-pointer text-primary border-2 rounded-xl border-white hover:border-orange'
+                            className='flex justify-start p-4 flex-col m-auto mb-4 cursor-pointer text-primary border-2 rounded-xl border-white hover:border-orange hover:bg-primary/20'
                             key={`${member.firstname}-${member.name}`}
                             onClick={() => handleMember(member)}
                         >
