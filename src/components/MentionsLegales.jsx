@@ -35,7 +35,7 @@ const MentionsLegales = () => {
         <p>Site web : <a href="https://www.planethoster.com" target='_blank' className="text-blue-600 hover:underline">www.planethoster.com</a></p>
 
         <h3 className="text-2xl font-bold mt-8 mb-4">Propriété Intellectuelle</h3>
-        <p>Tous les éléments du présent site, notamment les textes, images, sons, vidéos, etc. sont la propriété de l'Association Nom de l'Association.</p>
+        <p>Tous les éléments du présent site, notamment les textes, images, sons, vidéos, etc. sont la propriété de l'Association BDE la Caverne.</p>
 
         <h3 className="text-2xl font-bold mt-8 mb-4">Loi Applicable</h3>
         <p>Le présent site est soumis au droit français.</p>

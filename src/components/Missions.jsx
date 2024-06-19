@@ -2,7 +2,7 @@ import { missionData, TitleMissionsBDE } from '../constants';
 
 const Missions = () => {
     return (
-        <section id="Missions" className="pt-16 h-auto lg:h-screen">
+        <section id="Missions" className="pt-16 h-auto lg:min-h-screen">
             <div className="px-4 mx-auto max-w-screen-xl text-center lg:pt-16">
                 <h2 className="mb-4 text-xl font-extrabold tracking-tight leading-none text-primary md:text-2xl lg:text-4xl"><span className='text-orange'>/ </span>{TitleMissionsBDE.title}</h2>
                 <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 text-dark-purple">{TitleMissionsBDE.text}</p>
