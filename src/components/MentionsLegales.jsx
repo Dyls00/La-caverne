@@ -32,7 +32,7 @@ const MentionsLegales = () => {
         <p>Le présent site est hébergé par : PLANETHOSTER inc.</p>
         <p>Adresse : 4416 Louis B. Mayer, Laval (Québec), H7P 0G1, Canada</p>
         <p>Numéro de téléphone : 0 805 080 426 (Numéro Vert FR)</p>
-        <p>Site web : <a href="https://www.planethoster.com" target='_blank' className="text-blue-600 hover:underline">www.planethoster.com</a></p>
+        <p>Site web : <a href="https://www.planethoster.com" target='_blank' rel="noreferrer" className="text-blue-600 hover:underline">www.planethoster.com</a></p>
 
         <h3 className="text-2xl font-bold mt-8 mb-4">Propriété Intellectuelle</h3>
         <p>Tous les éléments du présent site, notamment les textes, images, sons, vidéos, etc. sont la propriété de l'Association BDE la Caverne.</p>

@@ -29,7 +29,7 @@ const Footer = () => {
                     </span>
                     <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
                         {socialLinks.map((social) => (
-                            <a href={social.href} className="text-white hover:text-orange" target='_blank' key={social.label}>
+                            <a href={social.href} className="text-white hover:text-orange" target='_blank' rel="noreferrer" key={social.label}>
                                 <FontAwesomeIcon icon={social.icon} className="w-4 h-4" />
                                 <span className="sr-only">{social.label}</span>
                             </a>

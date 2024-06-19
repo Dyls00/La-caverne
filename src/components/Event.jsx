@@ -13,7 +13,7 @@ const Event = () => {
                         <div className="max-w-sm bg-white border border-white rounded-lg shadow-2xl">
                             <img className="h-64 w-96 rounded-xl border-8 border-white" src={event.img} alt="" />
                             <div className="p-5">
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-dark-purple hover:text-primary">{event.title}</h5>
+                                <h3 className="mb-2 text-2xl font-bold tracking-tight text-dark-purple hover:text-primary">{event.title}</h3>
                                 <p className="mb-3 font-normal text-dark-purple">{event.des}</p>
                             </div>
                         </div>

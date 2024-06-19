@@ -108,7 +108,7 @@ export const events = [
 
 export const footerLinks = [
     {
-        title: "/ Pages",
+        title: "/ Informations",
         links: [
             { name: "Accueil", href: "/#Home" },
             { name: "Missions du BDE", href: "/#Missions" },
@@ -116,7 +116,7 @@ export const footerLinks = [
         ],
     },
     {
-        title: "/ Pages",
+        title: "/ Contacts BDE",
         links: [
             { name: "Membres du BDE", href: "/#Presentation" },
             { name: "Contact", href: "/#Contact" },
