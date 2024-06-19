@@ -1,3 +1,5 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import { events, TitleEvent } from "../constants";
 
 const Event = () => {
@@ -8,10 +10,10 @@ const Event = () => {
                 <p className="mb-8 text-lg font-normal lg:text-xl sm:px-16 lg:px-48 text-white">{TitleEvent.text}</p>
             </div>
             <div className="flex flex-col content-center justify-center lg:w-full lg:flex-row lg:justify-between">
-                {events.map((event) => (
-                    <a key={event.id} href={event.lien} className="w-max m-auto py-4 lg:pt-0">
+                {events.map((event, index) => (
+                    <a key={index} href={event.lien} className="w-max m-auto py-4 lg:pt-0">
                         <div className="max-w-sm bg-white border border-white rounded-lg shadow-2xl">
-                            <img className="h-64 w-96 rounded-xl border-8 border-white" src={event.img} alt="" />
+                            <LazyLoadImage className="h-64 w-96 rounded-xl border-8 border-white" src={event.img} alt="" effect="blur" />
                             <div className="p-5">
                                 <h3 className="mb-2 text-2xl font-bold tracking-tight text-dark-purple hover:text-primary">{event.title}</h3>
                                 <p className="mb-3 font-normal text-dark-purple">{event.des}</p>

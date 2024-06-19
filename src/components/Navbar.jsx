@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { navLinks } from "../constants";
-import logo from '../assets/logo.png';
+import logo from '../assets/logo_estiam.png';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +15,7 @@ const Navbar = () => {
         <nav className="violet-gradient fixed w-full z-20">
             <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/#Home" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src={logo} className="h-12" alt="Flowbite Logo" />
+                    <LazyLoadImage src={logo} height={48} width={180} alt="Estiam Bourges Logo" effect="blur"/>
                 </a>
                 <button
                     onClick={toggleMenu}

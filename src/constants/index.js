@@ -26,7 +26,7 @@ export const navLinks = [
 export const bdeMembers = [
     {
         'role': 'Présidente',
-        'avatar': '/images/members/presidente.png',
+        'avatar': '/images/members/presidente.webp',
         'name': 'BLAIZOT',
         'firstname': 'Eloïse',
         'email': 'eloise.blaizot@estiam.com',
@@ -35,7 +35,7 @@ export const bdeMembers = [
     },
     {
         'role': 'Vice-présidente',
-        'avatar': '/images/members/vice-presidente.png',
+        'avatar': '/images/members/vice-presidente.webp',
         'name': 'GALLAND',
         'firstname': 'Jeanne',
         'email': 'jeanne.galland@estiam.com',
@@ -44,7 +44,7 @@ export const bdeMembers = [
     },
     {
         'role': 'Trésorier',
-        'avatar': '/images/members/tresorier.jpg',
+        'avatar': '/images/members/tresorier.webp',
         'name': 'CROCHET',
         'firstname': 'Mathias',
         'email': 'mathias.crochet@estiam.com',
@@ -53,7 +53,7 @@ export const bdeMembers = [
     },
     {
         'role': 'Secrétaire',
-        'avatar': '/images/members/secretaire.jpg',
+        'avatar': '/images/members/secretaire.webp',
         'name': 'TELLIEZ',
         'firstname': 'Audrey',
         'email': 'audrey.telliez@estiam.com',
@@ -62,7 +62,7 @@ export const bdeMembers = [
     },
     {
         'role': 'Vice-secrétaire',
-        'avatar': '/images/members/vice-secretaire.jpg',
+        'avatar': '/images/members/vice-secretaire.webp',
         'name': 'NSANGOUAKANDA',
         'firstname': 'Johane Arlis',
         'email': 'johane-arlis.nsangouakanda@estiam.com',
@@ -71,7 +71,7 @@ export const bdeMembers = [
     },
     {
         'role': 'Membre de droit',
-        'avatar': '/images/members/membre-droit.jpg',
+        'avatar': '/images/members/membre-droit.webp',
         'name': 'GLAPA',
         'firstname': 'Denis',
         'email': 'denis.glapa@estiam.com',
@@ -84,14 +84,14 @@ export const events = [
 
     {
         lien: "https://www.estiam.education/",
-        img: '/images/events/karting.jpg',
+        img: '/images/events/karting.webp',
         title: "Remise de Diplôme: Karting",
         des: "Entre sensations fortes, rires partagés et compétition amicale, les participants ont vécu une expérience inoubliable.",
         btn: "Voir Plus",
     },
     {
         lien: "https://www.estiam.education/",
-        img: "/images/events/Barbecue.jpg",
+        img: "/images/events/Barbecue.webp",
         title: "Soirée Barbecue",
         des: "La convivialité, la bonne humeur et les délicieux repas ont transformé cette soirée en un moment marquant.",
         btn: "Voir Plus",
@@ -99,7 +99,7 @@ export const events = [
 
     {
         lien: "https://www.estiam.education/",
-        img: "/images/events/jeuxsociete.jpg",
+        img: "/images/events/jeuxsociete.webp",
         title: "Journée Intégration: Jeux",
         des: "Camaraderie, stratégie et rires ont créé une ambiance chaleureuse et enrichissante lors de cette journée mémorable.",
         btn: "Voir Plus",
@@ -211,9 +211,9 @@ export const missionData = [
 ];
 
 export const images = [
-    "/images/accueil/Estiam_CD18_02.jpg",
-    "/images/accueil/Estiam_CD18_05.jpg",
-    "/images/accueil/Estiam_CD18_12.jpg",
-    "/images/accueil/Estiam_CD18_15.jpg",
-    "/images/accueil/Estiam_CD18_17.jpg"
+    "/images/accueil/Estiam_CD18_02.webp",
+    "/images/accueil/Estiam_CD18_05.webp",
+    "/images/accueil/Estiam_CD18_12.webp",
+    "/images/accueil/Estiam_CD18_15.webp",
+    "/images/accueil/Estiam_CD18_17.webp"
 ];

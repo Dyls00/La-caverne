@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { bdeMembers, TitlePresBDE } from '../constants';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Presentation = () => {
     const [errorImages, setErrorImages] = useState({});
@@ -12,17 +14,19 @@ const Presentation = () => {
     const avatarImage = (member) => {
         return (
             !errorImages[`${member.firstname}-${member.name}`] ? (
-                <img
+                <LazyLoadImage
                     className="w-32 h-32 p-1 rounded-full m-auto"
                     src={member.avatar}
                     alt={`Avatar ${member.firstname} ${member.name}`}
                     onError={() => handleError(member)}
+                    effect="blur"
                 />
             ) : (
-                <img
+                <LazyLoadImage
                     className="w-32 h-32 p-1 rounded-full m-auto"
                     src="/images/members/avatar.svg"
                     alt="Avatar par défaut"
+                    effect="blur"
                 />
             )
         )
